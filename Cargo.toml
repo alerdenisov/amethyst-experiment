@@ -1,0 +1,12 @@
+[package]
+name = "ame-client"
+version = "0.1.0"
+authors = ["Aler Denisov <aler.zampillo@gmail.com>"]
+
+[dependencies]
+amethyst = { git = "https://github.com/amethyst/amethyst.git", rev = "8fe7175" }
+specs = "0.10"
+specs-derive = "0.1"
+rayon = "0.8.2"
+rand = "0.3"
+futures = "0.1.14"
